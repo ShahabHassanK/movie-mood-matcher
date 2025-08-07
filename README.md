@@ -22,60 +22,7 @@ It’s fun, emoji-rich, and personalized — perfect for movie lovers looking fo
 
 ---
 
-## 🗂️ Project Structure
 
-movie-mood-matcher/
-├── backend/
-│ ├── app/
-│ │ ├── init.py
-│ │ ├── api/
-│ │ │ └── routers/
-│ │ │ ├── questions.py
-│ │ │ └── recommend.py
-│ │ ├── core/
-│ │ │ ├── config.py
-│ │ │ ├── feature_space.py
-│ │ │ ├── questions_pool.py
-│ │ │ ├── quiz_engine.py
-│ │ │ └── recommender.py
-│ │ ├── db/
-│ │ │ ├── crud.py
-│ │ │ └── models.py
-│ │ ├── models/
-│ │ │ 
-│ │ ├── main.py
-│ │ └── init.py
-│ ├── data/
-│ │ ├── raw/
-│ │ │ └── (movie-related CSVs)
-│ │ ├── processed/
-│ │ │ └── (cleaned movie metadata)
-│ │ └── embeddings/
-│ │ ├── movies_with_hybrid_embeddings.pkl
-│ │ └── (npy/pkl embedding files)
-│ ├── .env
-│ ├── tmd.env
-│ └── requirements.txt
-│
-├── frontend/
-│ ├── public/
-│ │ └── index.html
-│ ├── src/
-│ │ ├── components/
-│ │ │ └── QuestionCard.jsx
-│ │ ├── pages/
-│ │ │ ├── About.jsx
-│ │ │ ├── Home.jsx
-│ │ │ ├── Quiz.jsx
-│ │ │ └── Recommendations.jsx
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ └── App.css
-│ ├── package.json
-│ └── vite.config.js
-│
-├── .gitignore
-└── README.md
 
 
 
