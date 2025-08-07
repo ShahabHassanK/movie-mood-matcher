@@ -1,0 +1,30 @@
+@"
+# Python
+.env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node/React
+node_modules/
+dist/
+build/
+npm-debug.log*
+
+# Data files
+data/
+*.csv
+*.data
+*.db
+*.zip
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+"@ | Out-File -FilePath .gitignore -Encoding utf8

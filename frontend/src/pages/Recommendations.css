@@ -1,0 +1,91 @@
+/* Main page styling */
+.recommendations-page {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 3rem 1rem;
+}
+
+.recommendations-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Header styling */
+.recommendations-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.recommendations-header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.recommendations-header .subtitle {
+  font-size: 1.125rem;
+  color: #4b5563;
+}
+
+/* Movies list styling */
+.movies-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Movie card styling */
+.movie-card {
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.best-match {
+  border: 2px solid #f59e0b;
+}
+
+/* Title styling */
+.movie-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.best-match-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #d97706;
+  margin-bottom: 0.75rem;
+}
+
+.best-match-header {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  margin-right: 0.5rem;
+}
+
+/* Overview text styling */
+.movie-overview {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+/* No results styling */
+.no-results {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-results p {
+  font-size: 1.125rem;
+  color: #4b5563;
+}
