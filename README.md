@@ -77,11 +77,7 @@ movie-mood-matcher/
 ├── .gitignore
 └── README.md
 
-yaml
-Copy
-Edit
 
----
 
 ## 🧪 Backend (FastAPI + ML)
 
